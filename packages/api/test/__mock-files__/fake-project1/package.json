@@ -1,0 +1,8 @@
+{
+    "name": "fake-project1",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "license": "ISC"
+}
