@@ -1,0 +1,34 @@
+{
+  "name": "kissing-bug",
+  "version": "0.1.0-alpha",
+  "description": "A simple and unobtrusive monorepo manager",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "eslint packages/*/**/*.ts",
+    "test": "nyc mocha"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "@types/chai": "^4.1.7",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^12.6.8",
+    "@typescript-eslint/parser": "^1.13.0",
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.5",
+    "eslint": "^6.1.0",
+    "husky": "^3.0.1",
+    "mocha": "^6.2.0",
+    "mock-fs": "^4.10.1",
+    "nyc": "12.x.x",
+    "rimraf": "^2.6.3",
+    "ts-node": "^8.3.0",
+    "typescript": "^3.5.3"
+  },
+  "repository": "https://github.com/tannerntannern/kissing-bug.git",
+  "author": "Tanner Nielsen",
+  "license": "MIT"
+}
